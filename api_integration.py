@@ -4,7 +4,7 @@ import streamlit as st  # Добавлено для работы с Streamlit
 
 # Конфигурация
 API_URL = "https://statistics-api.wildberries.ru"
-TOKEN = "eyJhbGciOiJFUzI1NiIsImtpZCI6IjIwMjQxMjE3djEiLCJ0eXAiOiJKV1QifQ.eyJlbnQiOjEsImV4cCI6MTc1MTUwOTY2MiwiaWQiOiIwMTk0MjI0My1lNzBiLTc1ZDgtYjg5Mi0xOTNkOTA1ZmZhNzkiLCJpaWQiOjIxMDk4OTA0LCJvaWQiOjQyODgzLCJzIjozMiwic2lkIjoiMjY1NDgxYWUtNTJiYy01ZWQ4LTgzMTktMTRlMTgwNDQwNjFjIiwidCI6ZmFsc2UsInVpZCI6MjEwOTg5MDR9.wmrZICaDnqhi8SdpPy4sLTyer3TFDsk_2eGDKP7b_S_OuqgDsVPx4Lm_gHydC0K9BHV9JivvZ_Sb9fhiqLbvzA"  # Убедитесь, что здесь указан актуальный токен
+TOKEN = "ВВЕДИ ТОКЕН"  # Убедитесь, что здесь указан актуальный токен
 
 def fetch_sales(date_from):
     """Получение данных о продажах за указанный период."""
